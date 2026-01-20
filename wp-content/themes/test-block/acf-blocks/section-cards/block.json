@@ -1,0 +1,18 @@
+{
+  "name": "acf/section-cards",
+  "title": "Section Cards",
+  "description": "Cards section from Figma",
+  "category": "layout",
+  "icon": "grid-view",
+  "keywords": ["cards", "section"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "render.php"
+  },
+  "supports": {
+    "align": ["wide", "full"],
+    "anchor": true
+  },
+  "style": ["file:./style.css"],
+  "editorStyle": ["file:./editor.css"]
+}

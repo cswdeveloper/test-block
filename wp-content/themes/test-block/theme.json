@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "settings": {
+    "color": {
+      "palette": [
+        { "slug": "light", "color": "#F3F4F1", "name": "Light" },
+        { "slug": "beige", "color": "#ECE9E2", "name": "Beige" },
+        { "slug": "dark", "color": "#141414", "name": "Dark" }
+      ]
+    },
+    "spacing": {
+      "spacingSizes": [
+        { "slug": "sm", "size": "16px" },
+        { "slug": "md", "size": "24px" },
+        { "slug": "lg", "size": "40px" }
+      ]
+    }
+  }
+}

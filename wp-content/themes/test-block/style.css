@@ -1,0 +1,42 @@
+/*
+Theme Name: Test Block
+Theme URI: 
+Author: Sergiy
+
+Text Domain: twentytwentyfive
+
+*/
+
+
+body {
+  font-family: 'Manrope', sans-serif;
+}
+
+
+
+
+.properties-section {
+  background: #fff;
+}
+
+.property-card {
+  background: #f3f2ee;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.property-image {
+  background: #e2e2e2;
+  border-radius: 16px 0 0 16px;
+}
+
+.js-sort{
+  color: #141414;
+}
+
+@media (max-width: 767px) {
+  .property-image {
+    border-radius: 16px 16px 0 0;
+    min-height: 200px;
+  }
+}

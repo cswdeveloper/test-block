@@ -1,0 +1,149 @@
+
+.section-cards {
+  margin: var(--wp--preset--spacing--lg) 0;
+}
+
+.card-item {
+  height: 100%;
+  padding: 0;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.card-inner {
+  display: flex;
+  flex-direction: row;
+  gap: var(--wp--preset--spacing--md);
+  width: 100%;
+}
+
+/* TEXT ONLY */
+.type-text .card-inner {
+  flex-direction: column;
+}
+
+/* TEXT + IMAGE (BOTTOM) */
+.type-image_bottom .card-inner {
+  flex-direction: column;
+  gap: 32px;
+}
+
+.card-media {
+  width: 100%;
+}
+
+.card-media img {
+  width: 100%;
+  height: auto;
+  /*   border-radius: 12px; */
+  display: block;
+  max-width: 100%;
+}
+
+.card-title {
+  font-size: 32px;
+  font-weight: 600;
+  margin: 0 0 16px;
+}
+
+.card-content {
+  padding: var(--wp--preset--spacing--md);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+
+.card-content p {
+  margin: 0;
+  line-height: 1.5;
+  opacity: 0.85;
+  padding-top: 16px;
+}
+
+.card-content .btn {
+  margin-top: 24px;
+  border-radius: 45px;
+  padding: 19px 30px;
+  width: 218px;
+}
+
+.bgr-light {
+  background-color: var(--wp--preset--color--light);
+}
+
+.bgr-beige {
+  background-color: var(--wp--preset--color--beige);
+}
+
+.bgr-dark {
+  background-color: var(--wp--preset--color--dark);
+  color: #fff;
+}
+
+.bgr-dark p {
+  opacity: 0.8;
+}
+
+
+/* DESKTOP LAYOUT */
+
+
+.type-image_right .card-inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* ⬅️ 50 / 50 */
+  align-items: stretch;
+  height: 100%;
+}
+
+.type-image_right .card-media {
+  width: 100%;
+  height: 100%;
+}
+
+.type-image_right .card-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  /* radius тільки справа */
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+/* MOBILE FIX */
+
+@media (max-width: 991.98px) {
+
+  /* Завжди вертикально на mobile */
+  .type-image_right .card-inner,
+  .type-image_bottom .card-inner {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  /* Картинка не ширша за контейнер */
+  .type-image_right .card-media,
+  .type-image_bottom .card-media {
+    max-width: 100%;
+  }
+
+  .card-media img {
+    width: 100%;
+    height: auto;
+  }
+
+
+  .card-inner {
+    display: flex;
+    flex-direction: column;
+    gap: var(--wp--preset--spacing--md);
+    width: 100%;
+  }
+
+
+
+
+}

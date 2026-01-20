@@ -1,0 +1,225 @@
+0000.000 (0) Opened log file at time: Tue, 20 Jan 2026 15:53:51 +0000 on https://test-block.cswdstudio.top
+0000.000 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.26.1 WP: 6.9 PHP: 8.2.29 (litespeed, Linux hosting-70.default-host.net 4.18.0-553.80.1.lve.el8.x86_64 #1 SMP Wed Oct 22 19:29:36 UTC 2025 x86_64) MySQL: 5.7.44-53-log (max packet size=67108864) WPLANG: uk Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 1024M (used: 46M | 48.5M) multisite: N openssl: OpenSSL 1.1.1k  FIPS 25 Mar 2021 mcrypt: N LANG:  WP Proxy: disabled ZipArchive::addFile: Y
+0000.001 (0) Free space on disk containing Updraft's temporary directory: 1761183.3 MB
+0000.002 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.003 (0) Semaphore (fd, wp_options) being initialised
+0000.003 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.004 (0) Set semaphore last lock (fd) time to 2026-01-20 15:53:51
+0000.004 (0) Semaphore lock (fd) complete
+0000.005 (0) Backup run: resumption=0, nonce=7d4e57d8f4e1, file_nonce=7d4e57d8f4e1 begun at=1768924431 (0s ago), job type=backup
+0000.005 (0) Scheduling a resumption (1) after 300 seconds (1768924731) in case this run gets aborted
+0000.009 (0) PHP event: code E_DEPRECATED: rtrim(): Passing null to parameter #1 ($string) of type string is deprecated (line 2837, wp-includes/formatting.php)
+0000.009 (0) Checking if we have a zip executable available
+0000.010 (0) Testing: /usr/bin/zip
+0000.012 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.013 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.013 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.013 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.013 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.020 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.020 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.025 (0) Working binary zip found: /usr/bin/zip
+0000.025 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.025 (0) Creation of backups of directories: beginning
+0000.026 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.052 (0) Total entities for the zip file: 277 directories, 1888 files (0 skipped as non-modified), 46.2 MB
+0000.054 (0) Zip: backup_2026-01-20-1753_testblockcswdstudiotop_7d4e57d8f4e1-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.056 (0) Zip: backup_2026-01-20-1753_testblockcswdstudiotop_7d4e57d8f4e1-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.057 (0) Zip: backup_2026-01-20-1753_testblockcswdstudiotop_7d4e57d8f4e1-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.059 (0) Zip: backup_2026-01-20-1753_testblockcswdstudiotop_7d4e57d8f4e1-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.060 (0) Zip: backup_2026-01-20-1753_testblockcswdstudiotop_7d4e57d8f4e1-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.062 (0) Zip: backup_2026-01-20-1753_testblockcswdstudiotop_7d4e57d8f4e1-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0000.063 (0) Zip: backup_2026-01-20-1753_testblockcswdstudiotop_7d4e57d8f4e1-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0000.064 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25 MB, 1888 files batched, 735 (735) added so far); re-opening (prior size: 0 KB)
+0000.734 (0) backup_2026-01-20-1753_testblockcswdstudiotop_7d4e57d8f4e1-plugins.zip.tmp: size is now: 7.60 MB
+0000.734 (0) A useful amount of data was added after this amount of zip processing: 1.3 s (normalised: 1.3 s, rate: 18983.9 KB/s)
+0000.735 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.3496179580688, normalised_time=1.3485086216573, max_time=0.73451614379883, data points known=1, old_max_bytes=26214400, new_max_bytes=116637296)
+0000.736 (0) Zip: backup_2026-01-20-1753_testblockcswdstudiotop_7d4e57d8f4e1-plugins.zip.tmp: 800 files added (on-disk size: 7762 KB)
+0000.738 (0) Zip: backup_2026-01-20-1753_testblockcswdstudiotop_7d4e57d8f4e1-plugins.zip.tmp: 900 files added (on-disk size: 7762 KB)
+0000.740 (0) Zip: backup_2026-01-20-1753_testblockcswdstudiotop_7d4e57d8f4e1-plugins.zip.tmp: 1000 files added (on-disk size: 7762 KB)
+0000.742 (0) Zip: backup_2026-01-20-1753_testblockcswdstudiotop_7d4e57d8f4e1-plugins.zip.tmp: 1100 files added (on-disk size: 7762 KB)
+0000.744 (0) Zip: backup_2026-01-20-1753_testblockcswdstudiotop_7d4e57d8f4e1-plugins.zip.tmp: 1200 files added (on-disk size: 7762 KB)
+0000.746 (0) Zip: backup_2026-01-20-1753_testblockcswdstudiotop_7d4e57d8f4e1-plugins.zip.tmp: 1300 files added (on-disk size: 7762 KB)
+0000.748 (0) Zip: backup_2026-01-20-1753_testblockcswdstudiotop_7d4e57d8f4e1-plugins.zip.tmp: 1400 files added (on-disk size: 7762 KB)
+0000.750 (0) Zip: backup_2026-01-20-1753_testblockcswdstudiotop_7d4e57d8f4e1-plugins.zip.tmp: 1500 files added (on-disk size: 7762 KB)
+0000.752 (0) Zip: backup_2026-01-20-1753_testblockcswdstudiotop_7d4e57d8f4e1-plugins.zip.tmp: 1600 files added (on-disk size: 7762 KB)
+0000.754 (0) Zip: backup_2026-01-20-1753_testblockcswdstudiotop_7d4e57d8f4e1-plugins.zip.tmp: 1700 files added (on-disk size: 7762 KB)
+0000.755 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (18.4 MB, 1888 files batched, 1001 (1736) added so far); re-opening (prior size: 7762 KB)
+0001.256 (0) backup_2026-01-20-1753_testblockcswdstudiotop_7d4e57d8f4e1-plugins.zip.tmp: size is now: 12.70 MB
+0001.258 (0) Zip: backup_2026-01-20-1753_testblockcswdstudiotop_7d4e57d8f4e1-plugins.zip.tmp: 1800 files added (on-disk size: 12988.9 KB)
+0001.371 (0) Creating zip file manifest (backup_2026-01-20-1753_testblockcswdstudiotop_7d4e57d8f4e1-plugins.zip.list-temp.tmp)
+0001.379 (0) Successfully created zip file manifest (size: 163421)
+0001.459 (0) Created plugins zip (0) - 13703.2 KB in 1.4 s (9567.4 KB/s) (sha1: e5b80554a280eb4be8c18dc7714b2390d21093e9, sha256: db353a52d7d0a78fc640f5eebab0ad2d6d555b178c855fe10567513effcc72b2)
+0001.461 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0001.461 (0) No remote despatch: user chose no remote backup service
+0001.461 (0) Recording as successfully uploaded: backup_2026-01-20-1753_testblockcswdstudiotop_7d4e57d8f4e1-plugins.zip
+0001.461 (0) Deleting zip manifest (backup_2026-01-20-1753_testblockcswdstudiotop_7d4e57d8f4e1-plugins.zip.list.tmp)
+0001.462 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0001.462 (0) Number of backup sets in history: 0; groups (db): 1
+0001.462 (0) Number of backup sets in history: 0; groups (files): 1
+0001.463 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0001.464 (0) Beginning creation of dump of themes (split every: 400 MB)
+0001.477 (0) Total entities for the zip file: 64 directories, 545 files (0 skipped as non-modified), 20.1 MB
+0001.478 (0) Zip: backup_2026-01-20-1753_testblockcswdstudiotop_7d4e57d8f4e1-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0001.480 (0) Zip: backup_2026-01-20-1753_testblockcswdstudiotop_7d4e57d8f4e1-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0001.481 (0) Zip: backup_2026-01-20-1753_testblockcswdstudiotop_7d4e57d8f4e1-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0001.482 (0) Zip: backup_2026-01-20-1753_testblockcswdstudiotop_7d4e57d8f4e1-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0001.484 (0) Zip: backup_2026-01-20-1753_testblockcswdstudiotop_7d4e57d8f4e1-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0001.948 (0) backup_2026-01-20-1753_testblockcswdstudiotop_7d4e57d8f4e1-themes.zip.tmp: size is now: 18.40 MB
+0001.951 (0) Creating zip file manifest (backup_2026-01-20-1753_testblockcswdstudiotop_7d4e57d8f4e1-themes.zip.list-temp.tmp)
+0001.954 (0) Successfully created zip file manifest (size: 38809)
+0002.076 (0) Created themes zip (0) - 18852.6 KB in 0.6 s (30846.4 KB/s) (sha1: da5ec72fc53b1786ea67f91d8c5fc6dde7e2c50f, sha256: b64e0b8675068d0324bbc3cdb43e6471faecc5919e25ae45a9843634b88c38a6)
+0002.077 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0002.077 (0) No remote despatch: user chose no remote backup service
+0002.077 (0) Recording as successfully uploaded: backup_2026-01-20-1753_testblockcswdstudiotop_7d4e57d8f4e1-themes.zip
+0002.077 (0) Deleting zip manifest (backup_2026-01-20-1753_testblockcswdstudiotop_7d4e57d8f4e1-themes.zip.list.tmp)
+0002.078 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0002.079 (0) Number of backup sets in history: 0; groups (db): 1
+0002.079 (0) Number of backup sets in history: 0; groups (files): 1
+0002.079 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0002.080 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots,wp-staging
+0002.080 (0) Looking for candidates to backup in: /home/mjpay01/cswdstudio.top/test-block/wp-content/uploads
+0002.081 (0) finding files: 2026: adding to list (1)
+0002.081 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0002.082 (0) Total entities for the zip file: 2 directories, 12 files (0 skipped as non-modified), 0.4 MB
+0002.093 (0) backup_2026-01-20-1753_testblockcswdstudiotop_7d4e57d8f4e1-uploads.zip.tmp: size is now: 0.40 MB
+0002.094 (0) Creating zip file manifest (backup_2026-01-20-1753_testblockcswdstudiotop_7d4e57d8f4e1-uploads.zip.list-temp.tmp)
+0002.095 (0) Successfully created zip file manifest (size: 627)
+0002.099 (0) Created uploads zip (0) - 433.8 KB in 0 s (25359.1 KB/s) (sha1: d86bad3bbbfbcf0e75604855cedb1e4361f9ffde, sha256: 2cddad0e69b159f0338769a2dc51d225839ba40bbfb198a41770a4d9545897b1)
+0002.099 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0002.100 (0) No remote despatch: user chose no remote backup service
+0002.100 (0) Recording as successfully uploaded: backup_2026-01-20-1753_testblockcswdstudiotop_7d4e57d8f4e1-uploads.zip
+0002.100 (0) Deleting zip manifest (backup_2026-01-20-1753_testblockcswdstudiotop_7d4e57d8f4e1-uploads.zip.list.tmp)
+0002.101 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0002.101 (0) Number of backup sets in history: 0; groups (db): 1
+0002.101 (0) Number of backup sets in history: 0; groups (files): 1
+0002.101 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0002.102 (0) No backup of mu-plugins: excluded by user's options
+0002.102 (0) Beginning backup of other directories found in the content directory (index: 0)
+0002.103 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0002.103 (0) Looking for candidates to backup in: /home/mjpay01/cswdstudio.top/test-block/wp-content
+0002.103 (0) finding files: upgrade: skipping: excluded by options
+0002.103 (0) finding files: themes: skipping: this is the themes directory
+0002.103 (0) finding files: languages: adding to list (1)
+0002.103 (0) finding files: plugins: skipping: this is the plugins directory
+0002.104 (0) finding files: updraft: skipping: this is the updraft directory
+0002.104 (0) finding files: upgrade-temp-backup: adding to list (2)
+0002.104 (0) finding files: uploads: skipping: this is the uploads directory
+0002.104 (0) finding files: index.php: adding to list (3)
+0002.106 (0) Total entities for the zip file: 6 directories, 79 files (0 skipped as non-modified), 4.4 MB
+0002.265 (0) backup_2026-01-20-1753_testblockcswdstudiotop_7d4e57d8f4e1-others.zip.tmp: size is now: 1.10 MB
+0002.266 (0) Creating zip file manifest (backup_2026-01-20-1753_testblockcswdstudiotop_7d4e57d8f4e1-others.zip.list-temp.tmp)
+0002.267 (0) Successfully created zip file manifest (size: 4473)
+0002.275 (0) Created others zip (0) - 1141 KB in 0.2 s (6718.9 KB/s) (sha1: f38e8718ca1711a5ec24d9f3ca2a28497e5b63a1, sha256: 9cf2e185abd5118f58af85b8aad5badd9beb0db7b33699b8ddf93a342b6f4e1d)
+0002.275 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0002.276 (0) No remote despatch: user chose no remote backup service
+0002.276 (0) Recording as successfully uploaded: backup_2026-01-20-1753_testblockcswdstudiotop_7d4e57d8f4e1-others.zip
+0002.276 (0) Deleting zip manifest (backup_2026-01-20-1753_testblockcswdstudiotop_7d4e57d8f4e1-others.zip.list.tmp)
+0002.277 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0002.277 (0) Number of backup sets in history: 0; groups (db): 1
+0002.277 (0) Number of backup sets in history: 0; groups (files): 1
+0002.277 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0002.279 (0) Saving backup status to database (elements: 8)
+0002.279 (0) Beginning creation of database dump (WordPress DB)
+0002.279 (0) SQL compatibility mode is: NO_DIR_IN_CREATE
+0002.280 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0002.297 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\n/*!50717 SELECT COUNT(*) INTO @rocksdb_has_p_s_session_variables FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'performance_schema' AND TABL (truncated - 2585 bytes total)
+0002.298 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0002.301 (0) Table wp_options: Total expected rows (via COUNT): 195
+0002.301 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0002.320 (0) Table wp_options: Rows added in this batch (next record: 1051): 192 (uncompressed bytes in this segment=697198) in 0.02 seconds
+0002.321 (0) Table wp_options: finishing file(s) (2, 167.1 KB)
+0002.323 (0) Table wp_users: Total expected rows (via COUNT): 1
+0002.323 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0002.324 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1414) in 0.00 seconds
+0002.325 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0002.326 (0) Table wp_usermeta: Total expected rows (via COUNT): 26
+0002.327 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0002.327 (0) Table wp_usermeta: Rows added in this batch (next record: 26): 26 (uncompressed bytes in this segment=2467) in 0.00 seconds
+0002.329 (0) Table wp_usermeta: finishing file(s) (2, 1.2 KB)
+0002.331 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0002.331 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=685) in 0.00 seconds
+0002.333 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0002.334 (0) Table wp_comments: Total expected rows (via COUNT): 0
+0002.335 (0) Table wp_comments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1722) in 0.00 seconds
+0002.335 (0) Table wp_comments: finishing file(s) (2, 0.5 KB)
+0002.338 (0) Table wp_links: Total expected rows (via COUNT): 0
+0002.338 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1310) in 0.00 seconds
+0002.339 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0002.341 (0) Table wp_postmeta: Total expected rows (via COUNT): 60
+0002.341 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0002.341 (0) Table wp_postmeta: Rows added in this batch (next record: 187): 60 (uncompressed bytes in this segment=5602) in 0.00 seconds
+0002.343 (0) Table wp_postmeta: finishing file(s) (2, 1.4 KB)
+0002.345 (0) Table wp_posts: Total expected rows (via COUNT): 64
+0002.345 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0002.347 (0) Table wp_posts: Rows added in this batch (next record: 85): 64 (uncompressed bytes in this segment=127351) in 0.00 seconds
+0002.349 (0) Table wp_posts: finishing file(s) (2, 9.3 KB)
+0002.349 (0) Table wp_term_relationships: Total expected rows (approximate): 2
+0002.350 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 3 (uncompressed bytes in this segment=728) in 0.00 seconds
+0002.351 (0) Table wp_term_relationships: finishing file(s) (2, 0.4 KB)
+0002.353 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 4
+0002.353 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0002.354 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=1019) in 0.00 seconds
+0002.355 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0002.357 (0) Table wp_termmeta: Total expected rows (via COUNT): 0
+0002.358 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=658) in 0.00 seconds
+0002.359 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0002.360 (0) Table wp_terms: Total expected rows (via COUNT): 4
+0002.360 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0002.361 (0) Table wp_terms: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=943) in 0.00 seconds
+0002.362 (0) Table wp_terms: finishing file(s) (2, 0.5 KB)
+0002.362 (0) PHP event: code E_WARNING: filemtime(): stat failed for /home/mjpay01/cswdstudio.top/test-block/wp-content/updraft/backup_2026-01-20-1753_testblockcswdstudiotop_7d4e57d8f4e1-db.gz (line 1923, wp-content/plugins/updraftplus/backup.php)
+0002.363 (0) backup_2026-01-20-1753_testblockcswdstudiotop_7d4e57d8f4e1-db-table-wp_options.table.tmpr1052.gz (1/12/fopen): adding to final database dump
+0002.366 (0) backup_2026-01-20-1753_testblockcswdstudiotop_7d4e57d8f4e1-db-table-wp_options.table.gz (2/12/fopen): adding to final database dump
+0002.366 (0) backup_2026-01-20-1753_testblockcswdstudiotop_7d4e57d8f4e1-db-table-wp_users.table.tmpr2.gz (3/12/fopen): adding to final database dump
+0002.366 (0) backup_2026-01-20-1753_testblockcswdstudiotop_7d4e57d8f4e1-db-table-wp_users.table.gz (4/12/fopen): adding to final database dump
+0002.366 (0) backup_2026-01-20-1753_testblockcswdstudiotop_7d4e57d8f4e1-db-table-wp_usermeta.table.tmpr27.gz (5/12/fopen): adding to final database dump
+0002.367 (0) backup_2026-01-20-1753_testblockcswdstudiotop_7d4e57d8f4e1-db-table-wp_usermeta.table.gz (6/12/fopen): adding to final database dump
+0002.367 (0) backup_2026-01-20-1753_testblockcswdstudiotop_7d4e57d8f4e1-db-table-wp_commentmeta.table.tmpr0.gz (7/12/fopen): adding to final database dump
+0002.367 (0) backup_2026-01-20-1753_testblockcswdstudiotop_7d4e57d8f4e1-db-table-wp_commentmeta.table.gz (8/12/fopen): adding to final database dump
+0002.367 (0) backup_2026-01-20-1753_testblockcswdstudiotop_7d4e57d8f4e1-db-table-wp_comments.table.tmpr0.gz (9/12/fopen): adding to final database dump
+0002.367 (0) backup_2026-01-20-1753_testblockcswdstudiotop_7d4e57d8f4e1-db-table-wp_comments.table.gz (10/12/fopen): adding to final database dump
+0002.367 (0) backup_2026-01-20-1753_testblockcswdstudiotop_7d4e57d8f4e1-db-table-wp_links.table.tmpr0.gz (11/12/fopen): adding to final database dump
+0002.368 (0) backup_2026-01-20-1753_testblockcswdstudiotop_7d4e57d8f4e1-db-table-wp_links.table.gz (12/12/fopen): adding to final database dump
+0002.368 (0) backup_2026-01-20-1753_testblockcswdstudiotop_7d4e57d8f4e1-db-table-wp_postmeta.table.tmpr188.gz (13/12/fopen): adding to final database dump
+0002.368 (0) backup_2026-01-20-1753_testblockcswdstudiotop_7d4e57d8f4e1-db-table-wp_postmeta.table.gz (14/12/fopen): adding to final database dump
+0002.368 (0) backup_2026-01-20-1753_testblockcswdstudiotop_7d4e57d8f4e1-db-table-wp_posts.table.tmpr86.gz (15/12/fopen): adding to final database dump
+0002.369 (0) backup_2026-01-20-1753_testblockcswdstudiotop_7d4e57d8f4e1-db-table-wp_posts.table.gz (16/12/fopen): adding to final database dump
+0002.369 (0) backup_2026-01-20-1753_testblockcswdstudiotop_7d4e57d8f4e1-db-table-wp_term_relationships.table.tmpr100001.gz (17/12/fopen): adding to final database dump
+0002.369 (0) backup_2026-01-20-1753_testblockcswdstudiotop_7d4e57d8f4e1-db-table-wp_term_relationships.table.gz (18/12/fopen): adding to final database dump
+0002.369 (0) backup_2026-01-20-1753_testblockcswdstudiotop_7d4e57d8f4e1-db-table-wp_term_taxonomy.table.tmpr5.gz (19/12/fopen): adding to final database dump
+0002.369 (0) backup_2026-01-20-1753_testblockcswdstudiotop_7d4e57d8f4e1-db-table-wp_term_taxonomy.table.gz (20/12/fopen): adding to final database dump
+0002.369 (0) backup_2026-01-20-1753_testblockcswdstudiotop_7d4e57d8f4e1-db-table-wp_termmeta.table.tmpr0.gz (21/12/fopen): adding to final database dump
+0002.370 (0) backup_2026-01-20-1753_testblockcswdstudiotop_7d4e57d8f4e1-db-table-wp_termmeta.table.gz (22/12/fopen): adding to final database dump
+0002.370 (0) backup_2026-01-20-1753_testblockcswdstudiotop_7d4e57d8f4e1-db-table-wp_terms.table.tmpr5.gz (23/12/fopen): adding to final database dump
+0002.370 (0) backup_2026-01-20-1753_testblockcswdstudiotop_7d4e57d8f4e1-db-table-wp_terms.table.gz (24/12/fopen): adding to final database dump
+0002.372 (0) backup_2026-01-20-1753_testblockcswdstudiotop_7d4e57d8f4e1-db.gz: finished writing out complete database file (183.1 KB)
+0002.374 (0) Total database tables backed up: 12 (backup_2026-01-20-1753_testblockcswdstudiotop_7d4e57d8f4e1-db.gz, size: 187569, sha1: 5ea5e0419fca2c3be9f675509c73d44a6c4fd100, sha256: 6ced4c66b91538d84faf42bf058f4169e83b7a785f965ad5d0cc6e1ab7cc3107)
+0002.376 (0) backup_2026-01-20-1753_testblockcswdstudiotop_7d4e57d8f4e1-plugins.zip: plugins: This file has already been successfully processed
+0002.376 (0) backup_2026-01-20-1753_testblockcswdstudiotop_7d4e57d8f4e1-themes.zip: themes: This file has already been successfully processed
+0002.376 (0) backup_2026-01-20-1753_testblockcswdstudiotop_7d4e57d8f4e1-uploads.zip: uploads: This file has already been successfully processed
+0002.376 (0) backup_2026-01-20-1753_testblockcswdstudiotop_7d4e57d8f4e1-others.zip: others: This file has already been successfully processed
+0002.376 (0) backup_2026-01-20-1753_testblockcswdstudiotop_7d4e57d8f4e1-db.gz: db: This file has not yet been successfully uploaded: will queue
+0002.376 (0) Saving backup history. Total backup size: 33.5 MB
+0002.377 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0002.378 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0002.378 (0) No remote despatch: user chose no remote backup service
+0002.378 (0) Recording as successfully uploaded: backup_2026-01-20-1753_testblockcswdstudiotop_7d4e57d8f4e1-db.gz
+0002.379 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0002.379 (0) Number of backup sets in history: 1; groups (db): 1
+0002.379 (0) Examining (for databases) backup set with group_id=0, nonce=7d4e57d8f4e1, datestamp=1768924431 (Jan 20 2026 15:53:51)
+0002.379 (0) This backup set is the backup set just made, so will not be deleted.
+0002.379 (0) Number of backup sets in history: 1; groups (files): 1
+0002.379 (0) Examining (for files) backup set with nonce=7d4e57d8f4e1, datestamp=1768924431 (Jan 20 2026 15:53:51)
+0002.379 (0) This backup set is the backup set just made, so will not be deleted.
+0002.379 (0) This backup set is the backup set just made, so will not be deleted.
+0002.379 (0) This backup set is the backup set just made, so will not be deleted.
+0002.379 (0) This backup set is the backup set just made, so will not be deleted.
+0002.380 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0002.380 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0002.380 (0) Resume backup (7d4e57d8f4e1, 0): finish run
+0002.381 (0) Decremented the semaphore (fd) by 1
+0002.381 (0) Semaphore (fd) unlocked
+0002.381 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0002.382 (0) No email will/can be sent - the user has not configured an email address.
+0002.382 (0) The backup succeeded and is now complete
