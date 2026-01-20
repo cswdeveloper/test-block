@@ -10,7 +10,7 @@ $desc = get_field('short_description');
 <div class="property-card mb-4">
   <div class="row g-0 align-items-stretch">
 
-    <div class="col-12 col-md-4 col-lg-3">
+    <div class="col-12 col-md-12 col-lg-3">
       <div class="property-image h-100">
         <?php the_post_thumbnail('medium_large', [
           'class' => 'img-fluid h-100 w-100 object-fit-cover'
